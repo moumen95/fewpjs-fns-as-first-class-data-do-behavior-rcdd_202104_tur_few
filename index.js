@@ -13,18 +13,11 @@ function handleClick(e) {
 
 
 
-function greet(timeString){
-  if (timeString < "12"){
-  return 'Good Morning';
-  // console.log('Good Morning');
-  } else if (timeString > "12" && timeString < "17"){
-  return 'Good Afternoon';
-  // console.log('Good Afternoon')
-
-  } else {
-    return 'Good Evening';
-    // console.log('Good Evening')
-  }
+function greet(timeString) {
+  const hour = parseInt(timeString, 10);
+  if (hour < 12) return "Good Morning";
+  if (hour > 17) return "Good Evening";
+  return "Good Afternoon";
 }
 
 /* Write your implementation of displayMessage() */
