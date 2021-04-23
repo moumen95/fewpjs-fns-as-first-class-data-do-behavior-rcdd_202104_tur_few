@@ -19,11 +19,11 @@ function greet(timeString){
   console.log('Good Morning')
   } else if (timeString > "12" && timeString < "17"){
   // return 'Good Afternoon';
-    console.log('Good Morning')
+  console.log('Good Afternoon')
 
   } else if (timeString > "17")
     // return 'Good Evening';
-      console.log('Good Morning')
+    console.log('Good Evening')
   
 }
 
