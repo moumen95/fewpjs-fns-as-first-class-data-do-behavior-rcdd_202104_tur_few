@@ -18,9 +18,12 @@ function greet(timeString){
   return 'Good Morning';
   console.log('Good Morning')
   } else if (timeString > "12" && timeString < "17"){
-  return 'Good Afternoon';
+  // return 'Good Afternoon';
+    console.log('Good Morning')
+
   } else if (timeString > "17")
-    return 'Good Evening';
+    // return 'Good Evening';
+      console.log('Good Morning')
   
 }
 
