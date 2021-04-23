@@ -13,7 +13,7 @@ function handleClick(e) {
 
 function greet(timeString){
   if  (timeString < 12){
-  timeString= 'Good Morning';
+  return 'Good Morning';
   }
   
   
