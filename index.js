@@ -14,9 +14,10 @@ function handleClick(e) {
 
 
 function greet(timeString){
-  if (timeString < "12"){
+  const hour = parseInt(timeString);
+  if (hour < "12"){
   return 'Good Morning';
-  } else if (timeString > "17"){
+  } else if (hour > "17"){
   return 'Good Evening';
   } else {
     return 'Good Afternoon';
