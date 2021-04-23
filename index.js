@@ -11,11 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-var dt = new Date();
-var hours = dt.getHours(); // gives the value in 24 hours format
-var minutes = dt.getMinutes() ; 
-var finalTime = "Time  - " + hours + ":" + minutes; 
-finalTime;
+
 
 function greet(timeString){
   if (timeString < "12"){
