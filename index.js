@@ -21,7 +21,6 @@ function greet(timeString){
   return 'Good Evening';
   } else {
     return 'Good Afternoon';
-    // console.log('Good Evening')
   }
 }
 
