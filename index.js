@@ -21,10 +21,10 @@ function greet(timeString){
   return 'Good Afternoon';
   // console.log('Good Afternoon')
 
-  } else
+  } else {
     return 'Good Evening';
     // console.log('Good Evening')
-  
+  }
 }
 
 /* Write your implementation of displayMessage() */
