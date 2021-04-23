@@ -15,11 +15,11 @@ function handleClick(e) {
 
 function greet(timeString){
   if (timeString < "12"){
-  return 'Good Evening';
+  return 'Good Morning';
   } else if (timeString > "12" && timeString < "17"){
   return 'Good Afternoon';
   } else if (timeString > "17")
-    return 'Good Morning';
+    return 'Good Evening';
   
 }
 
